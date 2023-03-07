@@ -513,6 +513,7 @@ body {
 .icon-linkedin-footer:hover {
   fill: var(--hover-color);
   cursor: pointer;
+}
 
 /*portofolio section*/
 .portofolio-options {
