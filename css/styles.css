@@ -182,7 +182,6 @@ body {
   border: none;
 }
 .hero-index-button:focus {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -328,7 +327,6 @@ body {
 
 .icon-social-links:hover {
   fill: var(--hover-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-instagram {
@@ -374,7 +372,6 @@ body {
 .our-customers-list-05:hover,
 .our-customers-list-06:hover {
   fill: var(--hover-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-customers-list-01,
 .our-customers-list-02,
@@ -556,7 +553,6 @@ body {
 .portofolio-button:active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portofolio-button:hover,
 .portofolio-button:focus {
@@ -566,7 +562,6 @@ body {
   width: auto;
   text-decoration: none;
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*portofolio container flex*/
 
@@ -591,7 +586,6 @@ body {
 .portofolio-wrapper:hover {
   color: var(--hover-color);
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portofolio-wrapper.img {
   display: block;
