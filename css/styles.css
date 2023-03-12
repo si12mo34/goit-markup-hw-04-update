@@ -85,7 +85,7 @@ body {
   display: inline-flex;
   gap: 50px;
 }
-.header-mail:hover,
+/*.header-mail:hover,
 .header-tel:hover,
 .header-mail:focus,
 .header-tel:focus,
@@ -93,9 +93,8 @@ body {
 .header-tel:active {
   cursor: pointer;
   text-decoration: none;
-  color: var(--hover-color);
   fill: var(--hover-color);
-}
+}*/
 .navigation-mail {
   text-decoration: none;
   list-style: none;
@@ -106,6 +105,10 @@ body {
   text-decoration: none;
   list-style: none;
   color: var(--grey-color);
+}
+.navigation-tel:hover,
+.navigation-mail:hover {
+  color: var(--hover-color);
 }
 .navigation-list {
   display: inline-flex;
@@ -125,15 +128,19 @@ body {
   text-decoration: none;
   list-style: none;
 }
-
+.icon-email {
+  width: 16px;
+  height: 12px;
+}
+.icon-tel {
+  width: 10px;
+  height: 16px;
+}
 .icon-email,
 .icon-tel {
   color: var(--grey-color);
 }
-.icon-email:hover,
-.icon-tel:hover {
-  fill: var(--hover-color);
-}
+
 /*logo*/
 .Webstudio-logo {
   color: var(--logo-color);
@@ -402,12 +409,6 @@ body {
   flex-direction: row;
   gap: 50px;
 }
-.Webstudio-logo-footer,
-.left-side-footer,
-.Webstudio-logo-footer::before {
-  display: flex;
-  gap: 30px;
-}
 
 .left-side-footer {
   display: flex;
@@ -415,6 +416,7 @@ body {
   text-decoration: none;
   text-transform: none;
   color: var(--white-color);
+  gap: 30px;
 }
 .right-side-footer {
   display: flex;
@@ -443,6 +445,29 @@ body {
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.icon-instagram-footer,
+.icon-twitter-footer,
+.icon-facebook-footer,
+.icon-linkedin-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px invisible var(--main-color);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+}
+.icon-instagram-footer:hover,
+.icon-twitter-footer:hover,
+.icon-facebook-footer:hover,
+.icon-linkedin-footer:hover {
+  fill: var(--hover-color);
+  cursor: pointer;
 }
 
 /*logo footer*/
@@ -492,27 +517,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-}
-
-.icon-instagram-footer,
-.icon-twitter-footer,
-.icon-facebook-footer,
-.icon-linkedin-footer {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  width: 20px;
-  height: 10px;
-  border: 1px invisible var(--main-color);
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.1);
-}
-.icon-instagram-footer:hover,
-.icon-twitter-footer:hover,
-.icon-facebook-footer:hover,
-.icon-linkedin-footer:hover {
-  fill: var(--hover-color);
-  cursor: pointer;
 }
 
 /*portofolio section*/
@@ -607,8 +611,9 @@ body {
   padding: 10px;
   flex-direction: row;
 }
-.portofolio-text {
-  color: var(--white-color);
-  padding: 32px 16px;
-  border-top: none;
+.portofolio-title {
+  color: var(--main-color);
+}
+.portofolio-title {
+  color: var(--grey-color);
 }
