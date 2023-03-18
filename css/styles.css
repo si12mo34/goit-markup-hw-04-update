@@ -144,7 +144,9 @@ body {
 .icon-about {
   width: 270px;
   height: 120px;
-  display: block;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 60px;
 }
 .svg-section {
   width: 270px;
