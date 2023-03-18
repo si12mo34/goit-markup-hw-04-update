@@ -85,7 +85,7 @@ body {
   display: flex;
   gap: 50px;
 }
-/*.header-mail:hover,
+.header-mail:hover,
 .header-tel:hover,
 .header-mail:focus,
 .header-tel:focus,
@@ -94,7 +94,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   fill: var(--hover-color);
-}*/
+  color: var(--hover-color);
+}
 .navigation-mail {
   text-decoration: none;
   list-style: none;
