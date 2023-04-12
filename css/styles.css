@@ -81,9 +81,15 @@ body {
 }
 .navigation-elements {
   list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
   flex-grow: 3;
+}
+.header-mail {
+  gap: 10px;
+  flex-grow: 1;
   display: flex;
-  gap: 50px;
 }
 .header-mail:hover,
 .header-tel:hover,
